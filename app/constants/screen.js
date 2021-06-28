@@ -6,5 +6,6 @@ export default SCREEN = {
     OrderDelivery: 'OrderDelivery',
     Search:"Search",
     User:"User",
+    Like:"Like"
 
 }

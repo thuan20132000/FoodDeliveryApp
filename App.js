@@ -15,6 +15,7 @@ const App = () => {
         screenOptions={{
           headerShown: false
         }}
+        initialRouteName={SCREEN.Home}
       >
         <Stack.Screen name={SCREEN.Home} component={Tabs} />
         <Stack.Screen name={SCREEN.Restaurant} component={Restaurant} />
